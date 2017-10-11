@@ -18,6 +18,6 @@
     <remap from="/usb_cam/image_raw" to="/camera_node/image_raw" />
     <remap from="/xqserial_server" to="/motor_driver" />
   </node>
-  <include file="$(find orb_slam2)/launch/run.launch" />
+  <include file="$(find nav_test)/launch/tank_blank_map1.launch" />
   <include file="$(find galileo)/launch/start.launch" />
 </launch>
