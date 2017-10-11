@@ -20,5 +20,4 @@
   </node>
   <include file="$(find orb_slam2)/launch/run.launch" />
   <include file="$(find galileo)/launch/start.launch" />
-  <node pkg="rosbag" type="play" name="bag_player" args="/home/xiaoqiang/Desktop/2.bag"></node>
 </launch>
