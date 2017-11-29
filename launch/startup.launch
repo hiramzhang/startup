@@ -18,5 +18,6 @@
     <remap from="/xqserial_server" to="/motor_driver" />
   </node>
   <include file="$(find nav_test)/launch/tank_blank_map0.launch" />
-  <include file="$(find galileo)/launch/start.launch" />
+  <node pkg="pose_updater" type="updater.py" name="updater_node"/>
+  <!-- <include file="$(find galileo)/launch/start.launch" /> -->
 </launch>
